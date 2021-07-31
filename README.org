@@ -9,6 +9,8 @@ This converts a directory ~./content~ of org files into html and creates a simpl
 5. Git add, commit, and push.
 6. ???
 7. Profit!
+* Title_fix
+This is an a freebie that I wrote to convert the default titles Org (or perhaps Doom) creates for an Org file if the named has underscores. Converts "_" to a space in the title line. It makes backups, but you should probably commit the org files before running this just in case.
 * Other Thoughts
 I wrote this to fill an immediate needs. It's very basic, and could easily be improved upon. But I didn't want to put too much effort into converting from Org to HTML, and just wanted to get my notes posted. Contributions are welcome.
 * License
