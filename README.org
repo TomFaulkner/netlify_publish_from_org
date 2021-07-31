@@ -1,0 +1,15 @@
+#+TITLE: Org Notes to Netlify
+* Introduction
+This converts a directory ~./content~ of org files into html and creates a simple alphabetized index of notes.
+* Usage
+1. Clone this repo
+2. Create Netlify account linked to cloned repo.
+3. In Netlify Build Settings change "Build command" to ~./build.sh~ and "Publish directory" to ~dist/~.
+4. Add content to the content directory.
+5. Git add, commit, and push.
+6. ???
+7. Profit!
+* Other Thoughts
+I wrote this to fill an immediate needs. It's very basic, and could easily be improved upon. But I didn't want to put too much effort into converting from Org to HTML, and just wanted to get my notes posted. Contributions are welcome.
+* License
+GPL2
