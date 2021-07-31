@@ -166,7 +166,7 @@ links = []
 
 for file in sorted(glob('content/*.org')):
     with open(file) as f:
-        title = f.readlines()[0][9:][:-2]
+        title = f.readlines()[0][9:][:-1]
     name_only = file.split('/')[1]
     links.append(f'<p><a href="{name_only}.html">{title}</a></p>')
 
